@@ -387,3 +387,77 @@ form .btn-primary-app { width: 100%; }
     .calendar-event { font-size: 0.7rem; }
     .modal-content { width: 90%; margin: 1rem; }
 }
+
+/* --- ADMIN BADGE EN SIDEBAR --- */
+.admin-badge {
+    font-size: 0.65rem;
+    background: #dc3545;
+    color: #fff;
+    padding: 2px 7px;
+    border-radius: 10px;
+    margin-left: 6px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    vertical-align: middle;
+}
+
+/* --- ESTILOS ROLES EN TABLA DE USUARIOS --- */
+.role-badge { font-size: 0.8rem; font-weight: 600; padding: 3px 10px; border-radius: 12px; }
+.role-admin    { background: #fecaca; color: #b91c1c; }
+.role-manager  { background: #dbeafe; color: #1d4ed8; }
+.role-employee { background: #dcfce7; color: #166534; }
+
+/* --- BOTONES ACCIÓN EN TABLA --- */
+.actions-cell { white-space: nowrap; }
+.btn-action { padding: 0.3rem 0.55rem; border: none; border-radius: 5px; cursor: pointer; font-size: 0.8rem; margin: 0 2px; }
+.btn-edit   { background: #dbeafe; color: #1d4ed8; }
+.btn-edit:hover { background: #1d4ed8; color: #fff; }
+.btn-delete { background: #fecaca; color: #b91c1c; }
+.btn-delete:hover { background: #b91c1c; color: #fff; }
+.btn-delete:disabled { background: #f1f5f9; color: #94a3b8; cursor: not-allowed; }
+
+/* --- INVITE CODE BOX --- */
+.invite-code-box {
+    background: #f1f5f9;
+    border: 2px dashed var(--border-color);
+    border-radius: 8px;
+    padding: 1.2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: var(--primary-color);
+    margin: 1rem 0;
+}
+.btn-outline {
+    padding: 0.5rem 1rem;
+    background: #fff;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-right: 0.5rem;
+    transition: all 0.2s ease;
+}
+.btn-outline:hover { background: var(--primary-color); color: #fff; }
+
+/* --- FILTROS SOLICITUDES ADMIN --- */
+.filtros-solicitudes { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.btn-filtro {
+    padding: 0.4rem 0.9rem;
+    border: 1px solid var(--border-color);
+    background: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+.btn-filtro.active, .btn-filtro:hover { background: var(--primary-color); color: #fff; border-color: var(--primary-color); }
+
+/* --- SIDEBAR DIVIDER --- */
+.sidebar-divider { border: none; border-top: 1px solid #334155; margin: 0.5rem 0.5rem; }
+
+/* --- PRIORITY BADGE BAJA --- */
+.priority-low { background-color: #d1fae5; color: #065f46; }
